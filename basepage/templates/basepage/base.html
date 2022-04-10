@@ -20,13 +20,12 @@
 </head>
 
 <body>
-<!--
-    !-- Preloader --
+    <!-- Preloader -->
     <div id="preloader">
         <i class="circle-preloader"></i>
         <img src="{% static 'basepage/core-img/salad.png' %}" alt="salad">
     </div>
--->
+
     <!-- Search Wrapper -->
     <div class="search-wrapper">
         <!-- Close Btn -->
@@ -196,6 +195,13 @@
         </div>
     </header>
     <!-- ##### Header Area End ##### -->
+
+    <!-- ##### DATABLOCK AREA #####-->
+
+    {% block content %}
+    <h1>Place to add your content</h1>
+    {% endblock %}
+
 
 
     <!-- ##### Footer Area Start ##### -->
